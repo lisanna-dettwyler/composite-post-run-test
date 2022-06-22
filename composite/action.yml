@@ -5,7 +5,7 @@ runs:
   steps:
     - shell: bash
       run: false
-    - uses: Profpatsch/action-post-run@master
+    - uses: lisanna-dettwyler/action-post-run@main
       with:
         run: |
           echo post-run
