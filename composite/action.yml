@@ -5,7 +5,7 @@ runs:
   steps:
     - shell: bash
       run: false
-    - uses: lisanna-dettwyler/action-post-run@main
+    - uses: lisanna-dettwyler/action-post-run@master
       with:
         run: |
           echo post-run
