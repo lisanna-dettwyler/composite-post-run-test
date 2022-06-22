@@ -3,6 +3,8 @@ description: test
 runs:
   using: 'composite'
   steps:
+    - shell: bash
+      run: false
     - uses: Profpatsch/action-post-run@master
       with:
         run: |
