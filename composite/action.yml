@@ -4,7 +4,7 @@ runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: false
+      run: true
     - uses: lisanna-dettwyler/action-post-run/success@master
       with:
         run: |
